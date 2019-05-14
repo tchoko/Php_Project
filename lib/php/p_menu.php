@@ -27,7 +27,7 @@
         -->
     </div>
 </nav>
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-sm navbar-light">
 	 <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="./index.php?page=accueil.php">Accueil<span class="sr-only">(current)</span></a>
@@ -47,7 +47,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link " href="./index.php?page=contact.php" >Contact</a>
             </li>
         </ul>
 </nav>

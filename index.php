@@ -60,10 +60,11 @@ $cnx = Connexion::getInstance($dsn, $user, $pass);
         </section>
         <footer>
             <div class="container text-center" id="footer">
-                Inclure ici la page de footer
+                
 				 <?php
                     if (file_exists("./lib/php/footerPublic.php")) {
                        include ("./lib/php/footerPublic.php");
+					   include ("./lib/php/socialPublic.php");
                             }
                   ?>
             </div>
